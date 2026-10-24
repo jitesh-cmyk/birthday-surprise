@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#170d2b">
+<title>For Siddhi Singh 💖 | A Birthday Surprise</title>
+<style>
+:root{--pink:#ff75b7;--lav:#b7a0ff;--cream:#fff4fa;--bg:#10091f}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--cream);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(ellipse at 20% 10%,#49205c 0,transparent 36%),radial-gradient(ellipse at 90% 35%,#29245f 0,transparent 34%),var(--bg);overflow-x:hidden}
+button{font:inherit;cursor:pointer}
+a{color:inherit}
+.stars,.hearts{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:0}
+.star{position:absolute;width:3px;height:3px;background:#fff;border-radius:50%;opacity:.7;animation:twinkle 2s infinite alternate}
+@keyframes twinkle{to{opacity:.15;transform:scale(.5)}}
+.wrap{position:relative;z-index:1}
+nav{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:auto;padding:22px 22px}
+.logo{font-weight:800;letter-spacing:.08em;color:#ffd5eb}.pill{border:1px solid #ffffff30;background:#ffffff0d;border-radius:999px;padding:9px 14px;color:white}
+.hero{min-height:88vh;display:grid;place-items:center;text-align:center;padding:45px 20px 80px}
+.eyebrow{display:inline-block;padding:8px 14px;border:1px solid #ffb6dc66;border-radius:999px;background:#ff75b71a;color:#ffd5eb;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase}
+h1{font-size:clamp(2.7rem,9vw,6.6rem);line-height:.98;letter-spacing:-.06em;margin:24px 0 20px}
+.gradient{background:linear-gradient(100deg,#fff 10%,#ff9dce 45%,#b7a0ff 85%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{max-width:650px;margin:0 auto;color:#e7d9f2;font-size:clamp(1rem,2.6vw,1.22rem);line-height:1.8}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{border:0;border-radius:999px;padding:14px 22px;font-weight:750;color:#27102d;background:linear-gradient(110deg,#ffc1e2,#c9b8ff);box-shadow:0 8px 30px #ff75b733;transition:transform .2s}
+.btn:hover{transform:translateY(-3px) scale(1.02)}.btn.secondary{background:#ffffff0d;color:#fff;border:1px solid #ffffff30;box-shadow:none}
+.countdown{display:flex;gap:10px;justify-content:center;margin-top:32px;flex-wrap:wrap}
+.time{min-width:74px;padding:12px 14px;border:1px solid #ffffff20;border-radius:18px;background:#ffffff0b;backdrop-filter:blur(12px)}
+.time strong{display:block;font-size:1.5rem}.time span{font-size:.7rem;color:#c9b8d9;letter-spacing:.12em}
+section{max-width:1050px;margin:0 auto;padding:70px 22px}
+.section-head{text-align:center;margin-bottom:30px}
+.kicker{color:#ffacd7;letter-spacing:.18em;text-transform:uppercase;font-size:.75rem;font-weight:800}
+h2{font-size:clamp(2rem,5vw,3.5rem);margin:10px 0 12px;letter-spacing:-.04em}
+.sub{color:#d6c7e5;line-height:1.7;max-width:650px;margin:auto}
+.glass{background:linear-gradient(135deg,#ffffff14,#ffffff05);border:1px solid #ffffff20;box-shadow:0 20px 70px #0003,inset 0 1px #ffffff12;backdrop-filter:blur(18px);border-radius:28px}
+.gift-area{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}
+.gift-card{padding:28px;text-align:center;min-height:310px;display:grid;place-items:center}
+.gift{position:relative;width:150px;height:125px;margin:12px auto 24px;filter:drop-shadow(0 18px 25px #ff4fa755);animation:float 3s ease-in-out infinite;transform-style:preserve-3d}
+@keyframes float{50%{transform:translateY(-10px) rotateY(7deg)}}
+.boxbody{position:absolute;bottom:0;left:10px;width:130px;height:85px;border-radius:7px 7px 14px 14px;background:linear-gradient(135deg,#ff82c0,#d84d9e);box-shadow:inset -10px 0 #a62c7c33}
+.lid{position:absolute;top:22px;left:0;width:150px;height:25px;border-radius:7px;background:linear-gradient(90deg,#ffc0e0,#ff79b9);z-index:2}
+.ribbon{position:absolute;left:63px;top:22px;width:24px;height:103px;background:linear-gradient(90deg,#fff0a7,#ffdb68);z-index:3}
+.bow{position:absolute;top:0;left:51px;width:25px;height:25px;border:8px solid #ffe28b;border-radius:80% 20% 80% 20%;transform:rotate(20deg);z-index:4}
+.bow:after{content:"";position:absolute;width:25px;height:25px;border:8px solid #ffe28b;border-radius:20% 80% 20% 80%;left:15px;top:-7px}
+.gift-hint{color:#e8d6f0;font-size:.9rem}
+.note{padding:30px}
+.note p{color:#e8d9f2;line-height:1.9;margin:10px 0}
+.signature{font-family:Georgia,serif;font-style:italic;color:#ffb6dc;font-size:1.35rem}
+.hidden{display:none!important}
+.reveal{animation:reveal .7s cubic-bezier(.2,.8,.2,1) both}
+@keyframes reveal{from{opacity:0;transform:translateY(18px) scale(.98)}to{opacity:1;transform:none}}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.photo{min-height:205px;border:1px dashed #ffffff55;border-radius:22px;background:linear-gradient(145deg,#ffffff12,#ff75b710);display:flex;align-items:center;justify-content:center;text-align:center;padding:15px;overflow:hidden;position:relative;color:#e9d8f1}
+.photo img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}
+.photo span{position:relative;z-index:1;background:#160d28b8;border-radius:12px;padding:8px 11px;font-size:.85rem}
+.photo:has(img) span{display:none}
+.wishes{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.wish{padding:22px}.wish .emoji{font-size:1.7rem}.wish h3{margin:10px 0}.wish p{color:#d9cbe7;line-height:1.7;font-size:.95rem}
+.footer{text-align:center;padding:40px 20px 60px;color:#cbb8db}.footer strong{color:#ffadd8}
+.heart{position:absolute;bottom:-40px;color:#ff85c5;animation:rise linear forwards;opacity:.8}
+@keyframes rise{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#fff0fa;color:#341638;padding:12px 18px;border-radius:999px;z-index:10;font-weight:700;box-shadow:0 8px 30px #0004}
+
+/* Birthday-day celebration overlay */
+.celebration{position:fixed;inset:0;z-index:20;overflow-y:auto;display:grid;place-items:center;padding:28px 16px;background:radial-gradient(ellipse at 50% 25%,#5a164d 0,#200d35 45%,#080612 100%);text-align:center}.celebration.hidden{display:none!important}.celebration-inner{width:min(100%,900px);position:relative;animation:reveal .9s both}.celebration h2{font-family:Georgia,serif;font-style:italic;font-size:clamp(2.5rem,8vw,5.6rem);line-height:1.05;color:#ff8ecb;text-shadow:0 0 10px #ff4fa7,0 0 32px #ff238f;margin:14px 0}.celebration .birthday-name{font-family:Georgia,serif;font-style:italic;font-size:clamp(2rem,6vw,4rem);color:#ffe0a0;text-shadow:0 0 20px #ffb45b}.celebration .birthday-copy{line-height:1.8;color:#fff0fa;max-width:680px;margin:14px auto}.cake{font-size:clamp(6rem,20vw,10rem);filter:drop-shadow(0 0 22px #ff76c6);animation:float 2.5s ease-in-out infinite;margin:8px auto}.celebration-card{margin:20px auto;padding:20px 22px;border:1px solid #ff75b777;border-radius:22px;background:#6b174b55;box-shadow:0 0 45px #ff49ae22;max-width:760px}.celebration-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:18px 0}.confetti{position:fixed;top:-20px;width:8px;height:13px;z-index:21;pointer-events:none;animation:confettiFall linear forwards}@keyframes confettiFall{to{transform:translateY(110vh) rotate(720deg);opacity:.1}}@media(max-width:600px){.celebration{padding:24px 14px}.celebration-card{padding:17px}.celebration .birthday-copy{font-size:.98rem}}
+
+@media(max-width:700px){.gift-area{grid-template-columns:1fr}.gallery,.wishes{grid-template-columns:1fr}.photo{min-height:230px}section{padding:52px 18px}.hero{min-height:82vh}nav{padding:18px}.logo{font-size:.9rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="stars" id="stars"></div><div class="hearts" id="hearts"></div>
+<div class="wrap">
+<nav><div class="logo">✦ A LITTLE MAGIC</div><button class="pill" id="musicBtn" aria-label="Toggle birthday music">♫ Music: Off</button></nav>
+<header class="hero">
+<div>
+<div class="eyebrow">A tiny universe made just for you ✨</div>
+<h1>Happy Birthday,<br><span class="gradient">Siddhi Singh</span> 💖</h1>
+<p class="lead">Meri favourite dost ke liye ek chhota sa surprise — because some people make ordinary days feel special, and you’re one of them. 🦋</p>
+<div class="actions"><button class="btn" onclick="document.querySelector('#surprise').scrollIntoView({behavior:'smooth'})">Open your surprise 🎁</button><button class="btn secondary" onclick="document.querySelector('#memories').scrollIntoView({behavior:'smooth'})">Our memories ✨</button></div>
+<div class="countdown" id="countdown" aria-live="polite">
+<div class="time"><strong id="days">--</strong><span>DAYS</span></div><div class="time"><strong id="hours">--</strong><span>HOURS</span></div><div class="time"><strong id="mins">--</strong><span>MINUTES</span></div><div class="time"><strong id="secs">--</strong><span>SECONDS</span></div>
+</div>
+<p id="countLabel" class="gift-hint">Counting down to your special day · 24 October 2026</p>
+</div>
+</header>
+<section id="surprise">
+<div class="section-head"><div class="kicker">One little surprise</div><h2>Something just for you 🎀</h2><p class="sub">Ready, birthday girl? Tap the gift and let the magic begin.</p></div>
+<div class="gift-area">
+<div class="glass gift-card"><div><button id="giftBtn" style="background:none;border:0;color:inherit" aria-label="Open the animated gift"><div class="gift" aria-hidden="true"><div class="bow"></div><div class="lid"></div><div class="boxbody"></div><div class="ribbon"></div></div></button><p class="gift-hint">👇 Tap the gift box</p><button class="btn" id="openBtn">Open my gift 💝</button></div></div>
+<div class="glass note hidden" id="letter"><div class="kicker">A note from your bestie</div><h2>Dear Siddhi, 💌</h2><p>Happy Birthday, meri pyaari best friend! 🥹💗 Tumhari life hamesha happiness, success, pyaar aur beautiful surprises se bhari rahe.</p>
+<p>Mujhe hamara viva yaad hai 😂❤️ — jab tum teacher ke saamne bhi mujhe answers bata kar help kar rahi thi, aur phir khud teacher se daant kha leti thi! Phir bhi tumne meri help karna nahi chhoda. Semester exams mein bhi tum jis tarah mera saath deti ho, woh mere liye bahut special hai. Thank you meri help karne aur support karne ke liye, meri pagal dost! 🫂💗</p>
+<p>Aur yaad hai jab hum dono park gaye the? 🌸🤣 Jhule par ek taraf do ladkiyan baithi thi aur doosri taraf main akela! Us moment ko yaad karke aaj bhi hasi aa jaati hai. Aisi chhoti-chhoti memories hi toh hamari friendship ko itna beautiful banati hain. 🎠💕</p>
+<p>Thank you meri life ka part hone ke liye aur normal moments ko bhi special banane ke liye. Chahe life kitni bhi busy ho jaaye, I hope hamari friendship hamesha aisi hi rahe — thodi pagal, thodi emotional, dher saari masti aur bahut saara trust! 🥹✨</p>
+<p>Hamesha khush rehna, aise hi smile karti rehna aur apni cute si pagalpan wali vibe kabhi mat change karna. Aur madam ji, viva mein help karne aur teacher se daant khane wali baat main kabhi nahi bhoolunga! 😂❤️ Love you loads, bestie!</p>
+<div class="signature">Forever your bestie 💖</div></div>
+</div>
+</section>
+<section id="memories">
+<div class="section-head"><div class="kicker">Little moments, big feelings</div><h2>Our memory corner 📸</h2><p class="sub"></p></div>
+<div class="gallery">
+<div class="photo"><img src="siddhi-memory.jpeg" alt="Siddhi in a festive moment"></div>
+<div class="photo"><img src="siddhi-memory.jpeg" alt="Siddhi sharing a happy memory"></div>
+<div class="photo"><img src="siddhi-memory.jpeg" alt="A favorite moment with Siddhi"></div>
+</div>
+</section>
+<section>
+<div class="section-head"><div class="kicker">Birthday wishes</div><h2>Three wishes for you 🌙</h2></div>
+<div class="wishes">
+<article class="glass wish"><div class="emoji">🌷</div><h3>Happiness</h3><p>Har din tumhare liye ek nayi wajah laaye smile karne ki. Tumhari life mein stress kam aur khushiyan double hon.</p></article>
+<article class="glass wish"><div class="emoji">✨</div><h3>Big dreams</h3><p>Tum jo bhi achieve karna chahti ho, tumhe confidence, courage aur success mile. I’ll always cheer for you!</p></article>
+<article class="glass wish"><div class="emoji">💗</div><h3>Real love</h3><p>Tumhare aas-paas hamesha genuine log rahein jo tumhe respect karein, samjhein aur tumhari value jaanein.</p></article>
+</div>
+</section>
+<div class="footer">Made with <strong>♡</strong>, smiles & a little magic<br><span>For Siddhi Singh · 24.10.2026</span></div>
+</div>
+
+<div class="celebration hidden" id="birthdayCelebration" role="dialog" aria-modal="true" aria-labelledby="birthdayTitle"><div class="celebration-inner"><div class="eyebrow">✦ TODAY IS ALL ABOUT YOU ✦</div><h2 id="birthdayTitle">Happy Birthday</h2><div class="birthday-name">Siddhi Singh 💖</div><p class="birthday-copy">Wishing you a day filled with love, laughter, happiness, and all the beautiful things your heart desires.</p><p style="color:#ff9fd1;font-weight:800">You deserve the best! ✨</p><div class="cake" aria-label="Birthday cake">🎂</div><div class="celebration-card"><h3 style="margin:0 0 8px;font-size:1.4rem">💗 It’s Your Special Day!</h3><p class="birthday-copy" style="margin:0">May all your dreams come true, may you get all the love and success in the world. Keep shining, keep smiling, and keep being amazing! 💖✨</p></div><div class="celebration-actions"><button class="btn" id="celebrateGift">🎁 Open Your Surprise</button><button class="btn secondary" id="celebrateMemories">📸 Memories Gallery</button><button class="btn secondary" id="closeCelebration">Enter Website ♡</button></div><p class="gift-hint">Made with love for Siddhi Singh · Forever your bestie 💕</p></div></div>
+
+<script>
+const $=id=>document.getElementById(id);
+// Twinkling stars
+for(let i=0;i<65;i++){const s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=Math.random()*3+'s';s.style.animationDuration=(1.4+Math.random()*2.5)+'s';$('stars').appendChild(s)}
+// Countdown to birthday at local midnight
+const target=new Date(2026,9,24,0,0,0);
+let celebrationShown=false;
+function showCelebration(){if(celebrationShown)return;celebrationShown=true;$('birthdayCelebration').classList.remove('hidden');document.body.style.overflow='hidden';startConfetti();burstHearts(45)}
+function hideCelebration(){$('birthdayCelebration').classList.add('hidden');document.body.style.overflow=''}
+function startConfetti(){for(let i=0;i<90;i++){const c=document.createElement('i');c.className='confetti';c.style.left=Math.random()*100+'%';c.style.background=['#ff79bd','#ffd66e','#b9a2ff','#ffffff','#ff4d8d'][Math.floor(Math.random()*5)];c.style.animationDuration=(3+Math.random()*5)+'s';c.style.animationDelay=(Math.random()*2)+'s';document.body.appendChild(c);setTimeout(()=>c.remove(),9000)}}
+function tick(){let diff=target-Date.now();if(diff<=0){$('countLabel').textContent='It’s your birthday, Siddhi! Happy Birthday! 🎂💖';$('countdown').innerHTML='<div class="time"><strong>🎂</strong><span>YOUR DAY!</span></div>';showCelebration();return}
+const d=Math.floor(diff/86400000),h=Math.floor(diff%86400000/3600000),m=Math.floor(diff%3600000/60000),s=Math.floor(diff%60000/1000);
+$('days').textContent=d;$('hours').textContent=h;$('mins').textContent=m;$('secs').textContent=s;
+}
+tick();setInterval(tick,1000);
+$('celebrateGift').addEventListener('click',()=>{hideCelebration();openGift();document.querySelector('#surprise').scrollIntoView({behavior:'smooth'})});
+$('celebrateMemories').addEventListener('click',()=>{hideCelebration();document.querySelector('#memories').scrollIntoView({behavior:'smooth'})});
+$('closeCelebration').addEventListener('click',hideCelebration);
+// Gift reveal
+function openGift(){const l=$('letter');l.classList.remove('hidden');l.classList.add('reveal');$('openBtn').textContent='Surprise opened 💖';$('openBtn').disabled=true;burstHearts(26);l.scrollIntoView({behavior:'smooth',block:'center'})}
+$('giftBtn').addEventListener('click',openGift);$('openBtn').addEventListener('click',openGift);
+function burstHearts(n=8){for(let i=0;i<n;i++){const h=document.createElement('span');h.className='heart';h.textContent=['♥','♡','💖','✨'][Math.floor(Math.random()*4)];h.style.left=Math.random()*100+'%';h.style.fontSize=(14+Math.random()*24)+'px';h.style.animationDuration=(4+Math.random()*4)+'s';$('hearts').appendChild(h);setTimeout(()=>h.remove(),8500)}}
+setInterval(()=>burstHearts(2),1800);
+// Music control: browser-generated gentle tones; no external audio file required
+let audioCtx=null,oscillators=[],musicOn=false,musicTimer=null;
+function stopMusic(){oscillators.forEach(o=>{try{o.stop()}catch(e){}});oscillators=[];if(musicTimer)clearInterval(musicTimer);musicOn=false;$('musicBtn').textContent='♫ Music: Off';if(audioCtx){audioCtx.close();audioCtx=null}}
+function startMusic(){const AC=window.AudioContext||window.webkitAudioContext;if(!AC){toast('Your browser does not support generated music.');return}audioCtx=new AC();musicOn=true;$('musicBtn').textContent='♫ Music: On';const notes=[523.25,659.25,783.99,659.25,587.33,698.46,880,698.46];let idx=0;
+function note(){if(!audioCtx||!musicOn)return;const o=audioCtx.createOscillator(),g=audioCtx.createGain();o.type='sine';o.frequency.value=notes[idx++%notes.length];g.gain.setValueAtTime(.0001,audioCtx.currentTime);g.gain.exponentialRampToValueAtTime(.035,audioCtx.currentTime+.04);g.gain.exponentialRampToValueAtTime(.0001,audioCtx.currentTime+.32);o.connect(g);g.connect(audioCtx.destination);o.start();o.stop(audioCtx.currentTime+.34);oscillators.push(o);oscillators=oscillators.slice(-12)}
+note();musicTimer=setInterval(note,380)}
+$('musicBtn').addEventListener('click',()=>musicOn?stopMusic():startMusic());
+function toast(msg){const t=document.createElement('div');t.className='toast';t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),2500)}
+</script>
+</body>
+</html>
